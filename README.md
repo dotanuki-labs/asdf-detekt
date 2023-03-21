@@ -1,61 +1,43 @@
-<div align="center">
+# asdf-detekt
 
-# asdf-detekt [![Build](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/build.yml/badge.svg)](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/build.yml) [![Lint](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/lint.yml/badge.svg)](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/lint.yml)
+[![CI/main](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/ci.yml/badge.svg)](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/ci.yml)
 
 
-[detekt](https://github.com/detekt/detekt) plugin for the [asdf version manager](https://asdf-vm.com).
+A [detekt-cli](https://github.com/detekt/detekt) plugin for the [asdf version manager](https://asdf-vm.com).
 
-</div>
 
-# Contents
+## Installing
 
-- [Dependencies](#dependencies)
-- [Install](#install)
-- [Contributing](#contributing)
-- [License](#license)
+Installing this plugin:
 
-# Dependencies
-
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
-
-# Install
-
-Plugin:
-
-```shell
-asdf plugin add detekt
-# or
-asdf plugin add detekt https://github.com/dotanuki-labs/asdf-detekt.git
+```bash
+$> asdf plugin add detekt https://github.com/dotanuki-labs/asdf-detekt.git
 ```
 
-detekt:
+## Using
 
-```shell
+Installing the `detekt-cli` with `asdf`:
+
+```bash
+
 # Show all installable versions
-asdf list-all detekt
+$> asdf list-all detekt
 
 # Install specific version
-asdf install detekt latest
+$> asdf install detekt latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global detekt latest
+$> asdf global detekt latest
 
 # Now detekt commands are available
-detekt -v
+$> detekt --version
 ```
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
-install & manage versions.
+## Additional information
 
-# Contributing
+Check [asdf](https://asdf-vm.com/) for more instructions on how to install and manage versions.
 
-Contributions of any kind welcome! See the [contributing guide](contributing.md).
+## License
 
-[Thanks goes to these contributors](https://github.com/dotanuki-labs/asdf-detekt/graphs/contributors)!
+Copyright (c) 2023 - Dotanuki Labs - [The MIT license](https://choosealicense.com/licenses/mit/)
 
-# License
-
-See [LICENSE](LICENSE) © [Ubiratan Soares](https://github.com/dotanuki-labs/)
