@@ -1,6 +1,8 @@
 # asdf-detekt
 
-[![CI/main](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/ci.yml/badge.svg)](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/ci.yml)
+[![CI](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/ci.yml/badge.svg)](https://github.com/dotanuki-labs/asdf-detekt/actions/workflows/ci.yml)
+[![Code Style](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://shellcheck.net/)
+[![License](https://img.shields.io/github/license/dotanuki-labs/gradle-profiler-pttest)](https://choosealicense.com/licenses/mit)
 
 
 A [detekt-cli](https://github.com/detekt/detekt) plugin for the [asdf version manager](https://asdf-vm.com).
