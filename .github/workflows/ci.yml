@@ -24,7 +24,6 @@ jobs:
 
   integration-test:
     needs: lint
-    name: Integration Test
     strategy:
       matrix:
         os:
